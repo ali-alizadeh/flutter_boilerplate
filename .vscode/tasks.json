@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run build runner",
+      "command": "fvm flutter packages pub run build_runner build",
+      "type": "shell",
+      "args": [],
+    }
+  ]
+}
