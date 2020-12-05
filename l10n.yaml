@@ -1,0 +1,8 @@
+arb-dir: lib/presentation/l10n
+output-dir: lib/presentation/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+preferred-supported-locales: ["en"]
+synthetic-package: false
+use-deferred-loading: false

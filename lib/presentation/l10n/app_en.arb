@@ -1,0 +1,11 @@
+{
+  "@@locale": "en",
+  "homePageTitle": "Flutter Boilerplate Home Page",
+  "@homePageTitle": {},
+  "pushedTimesDescription": "You have pushed the button this many times:",
+  "@pushedTimesDescription": {},
+  "increment": "Increment",
+  "@increment": {
+    "description": "The conventional newborn programmer greeting"
+  }
+}

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../l10n/app_localizations.dart';
+
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
@@ -18,13 +20,13 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Boilerplate Home Page'),
+        title: Text(AppLocalizations.of(context).homePageTitle),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text('You have pushed the button this many times:'),
+            Text(AppLocalizations.of(context).pushedTimesDescription),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
@@ -34,7 +36,7 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
+        tooltip: AppLocalizations.of(context).increment,
         child: const Icon(Icons.add),
       ),
     );
