@@ -5,6 +5,9 @@ analyzer:
     implicit-casts: false
     implicit-dynamic: true
 
+  exclude:
+    - "**/*.config.dart"
+
   errors:
     missing_required_param: error
     missing_return: error
