@@ -39,3 +39,7 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+
+# The .fvm folder contains FVM config. FVM (Flutter Version Management) is a simple
+# cli to manage Flutter SDK versions. You can remove it if you don't use FVM.
+.fvm/
