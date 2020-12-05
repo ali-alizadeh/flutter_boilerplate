@@ -1,0 +1,17 @@
+include: package:lint/analysis_options.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: true
+
+  errors:
+    missing_required_param: error
+    missing_return: error
+    prefer_const_constructors: warning
+    todo: info
+
+linter:
+  rules:
+    omit_local_variable_types: true
+    prefer_single_quotes: true
