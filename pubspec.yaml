@@ -16,6 +16,7 @@ dependencies:
   flutter_bloc: ^6.1.1
   freezed_annotation: ^0.12.0
   get_it: ^5.0.1
+  hydrated_bloc: ^6.1.0
   injectable: ^1.0.5
   intl: ^0.16.1
   lint: ^1.3.0
