@@ -22,7 +22,7 @@ Future<void> main() async {
   await Hive.initFlutter();
   HydratedBloc.storage = await HydratedStorage.build();
   Bloc.observer = AppBlocObserver();
-  configureServiceLocator();
+  await configureServiceLocator();
 
   runZonedGuarded<void>(
     () => runApp(App()),

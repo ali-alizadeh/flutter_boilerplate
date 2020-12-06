@@ -8,4 +8,6 @@ abstract class ServiceLocator {
 }
 
 @InjectableInit(preferRelativeImports: true, asExtension: false)
-void configureServiceLocator() => $initGetIt(GetIt.instance);
+Future<void> configureServiceLocator() async {
+  await $initGetIt(GetIt.instance);
+}
